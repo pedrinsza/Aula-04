@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+	padding: 0;
+    font-family: sans-serif;
+}
+
 :root{
     --cor1: #3C3633;
     --cor2: #FFFC9B;
@@ -79,7 +85,6 @@
 
 .title-2{
     border-bottom: solid 2px black;
-    margin-left: 40px;
     margin-bottom: 20px;
 }
 
@@ -123,24 +128,36 @@
 
 .footer{
     background-color: var(--cor1);
-    width: 97%;
     padding: 20px;
-
-}
-
-.footer ul{
     display: flex;
     justify-content: space-evenly;
-    list-style: none;
     color: white;
+}
+
+.footer-lista{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-lista-item{
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .artigo-img{
     width: 90%;
     margin: 0 auto;
     padding: 30px;
+;
 }
 
 .w-10{
     width: 10%;
+}
+
+.my-10{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
