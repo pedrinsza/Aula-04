@@ -161,3 +161,24 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.header-boxe{
+    /*background-color: black;*/
+    background-image: url(../img/1200.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    border: 2px solid red;
+    background-size: cover;
+    background-position: top right;
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+}
+
+.header-boxe-h1{
+    color: white;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 35px;
+}
